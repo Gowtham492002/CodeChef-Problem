@@ -1,0 +1,11 @@
+Minimum Coins
+
+for i in range(int(input())):
+    X = int(input())
+    print(X%10)
+
+Output
+3
+0
+9
+1
