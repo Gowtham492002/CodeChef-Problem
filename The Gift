@@ -1,0 +1,18 @@
+The Gift
+
+CODE:
+
+x,n,m=[int(x) for x in input().split()]
+if (x+m) >= n:
+    print("yes")
+else:
+    print("no")
+
+Input:
+
+5 10 15
+
+
+Output:
+
+yes
