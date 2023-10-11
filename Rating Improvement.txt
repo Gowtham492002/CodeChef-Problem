@@ -1,0 +1,27 @@
+Rating Improvement
+
+CODE:
+
+for i in range(int(input())):
+    X,Y = map(int,input().split())
+    if X+200 >= Y and Y >= X:
+        print("Yes")
+    else:
+        print("No")
+
+Input:
+
+5
+1300 1500
+1201 1402
+300 4000
+723 805
+1330 512
+
+Output:
+
+Yes
+No
+No
+Yes
+No
