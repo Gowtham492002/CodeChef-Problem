@@ -1,0 +1,21 @@
+Discount
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    a=int(input())
+    print(100-a)
+
+Input:
+4
+5
+9
+11
+21
+
+Output:
+95
+91
+89
+79
