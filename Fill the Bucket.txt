@@ -1,0 +1,18 @@
+Fill the Bucket
+
+CODE:
+
+for i in range(int(input())):
+    K,X = map(int,input().split())
+    print(abs(K-X))
+
+Input:
+
+2
+5 4
+15 6
+
+Output:
+
+1
+9
