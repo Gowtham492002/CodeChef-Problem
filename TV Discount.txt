@@ -1,0 +1,25 @@
+TV Discount
+
+CODE:
+
+for i in range(int(input())):
+    a,b,c,d = map(int,input().split())
+    if a-c < b-d :
+        print("First")
+    elif a-c == b-d:
+        print("Any")
+    else:
+        print("Second")
+
+Input:
+
+3
+85 75 35 20
+100 99 0 0
+30 40 0 10
+
+Output:
+
+First
+Second
+Any
