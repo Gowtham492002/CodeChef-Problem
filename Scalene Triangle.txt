@@ -1,0 +1,26 @@
+Scalene Triangle
+
+CODE:
+
+for i in range(int(input())):
+    a,b,c = map(int,input().split())
+    if a==b or a==c or b==c or c==a:
+        print("No")
+    else:
+        print("Yes")
+
+
+Input:
+
+4
+2 3 4
+1 2 2
+2 2 2
+3 5 6
+
+Output:
+
+Yes
+No
+No
+Yes
