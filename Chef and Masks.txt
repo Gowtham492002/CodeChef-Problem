@@ -1,0 +1,25 @@
+Chef and Masks
+
+CODE:
+
+for _ in range(int(input())):
+    x,y = map(int,input().split())
+    if x*100 >= y*10:
+        print('CLOTH')
+    else:
+        print('DISPOSABLE')
+
+Input:
+
+4
+10 100
+9 100
+88 99
+1 11
+
+Output:
+
+CLOTH
+DISPOSABLE
+CLOTH
+DISPOSABLE
