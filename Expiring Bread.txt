@@ -1,0 +1,23 @@
+Expiring Bread
+
+CODE:
+
+for i in range(int(input())):
+    N,M,K = map(int,input().split())
+    if K*M >= N:
+        print("Yes")
+    else:
+        print("No")
+
+Input:
+
+3
+100 100 1
+9 2 5
+19 6 3
+
+Output:
+
+Yes
+Yes
+No
