@@ -1,0 +1,17 @@
+AI Analysing Code
+
+CODE:
+
+X = int(input())
+if X <= 1000:
+    print("Yes")
+else:
+    print("No")
+
+Input:
+
+50
+	
+Output:
+
+Yes
