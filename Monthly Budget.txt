@@ -1,0 +1,23 @@
+Monthly Budget
+
+CODE:
+
+for t in range(int(input(''))):
+    x,y = map(int,input().split(' '))
+    if y*30 <= x:
+        print('YES')
+    else:
+        print('NO')
+
+Input:
+
+3
+1000 10
+250 50
+1500 50
+
+Output:
+
+YES
+NO
+YES
