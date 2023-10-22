@@ -1,0 +1,25 @@
+Perfect Trio
+
+CODE:
+
+for i in range(int(input())):
+    A,B,C = (map(int,input().split()))
+    if A+B==C or A+C==B or B+C==A:
+        print("YEs")
+    else:
+        print("No")
+
+Input:
+
+4
+10 20 30
+23 51 17
+44 21 23
+30 30 30
+
+Output:
+
+YEs
+No
+YEs
+No
