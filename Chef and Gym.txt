@@ -1,0 +1,25 @@
+Chef and Gym
+
+CODE:
+
+gym = int(input())
+for g in range(gym):
+  M,T,B = map(int,input().split())
+  if B>=M+T: print(2)
+  elif B>=M: print(1)
+  else: print(0)
+
+Input:
+
+4
+1 2 3
+10 12 13
+23 1 22
+23 1 63
+
+Output:
+
+2
+1
+0
+2
