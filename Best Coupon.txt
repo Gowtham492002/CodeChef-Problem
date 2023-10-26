@@ -1,0 +1,26 @@
+Best Coupon
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    x=int(input())
+    b=int(x*0.1)
+    z=100
+    if(b>z):
+        print(b)
+    else:
+        print(z)
+
+Input:
+
+3
+300
+1300
+1000
+
+Output:
+
+100
+130
+100
