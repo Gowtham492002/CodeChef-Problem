@@ -1,0 +1,29 @@
+Shopping Change
+
+CODE:
+
+test_cases = int(input())
+
+money = 100
+
+spent = []
+
+for i in range(test_cases):
+    b = int(input())
+    spent.append(b)
+    
+for i in range(test_cases):
+    print(money - spent[i])
+
+Input:
+
+3
+1
+25
+100
+
+Output:
+
+99
+75
+0
