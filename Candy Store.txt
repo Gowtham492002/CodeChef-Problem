@@ -1,0 +1,24 @@
+Candy Store
+
+CODE:
+
+for i in range(int(input())):
+    X,Y = map(int,input().split())
+    if X < Y:
+        print(X+(Y-X)*2)
+    else:
+        print(Y)
+
+Input:
+
+4
+3 1
+5 5
+4 7
+2 3
+
+Output:
+1
+5
+10
+4
