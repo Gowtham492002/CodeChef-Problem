@@ -1,0 +1,23 @@
+Pending Assignments
+
+CODE:
+
+for i in range(int(input())):
+    X,Y,Z = map(int,input().split())
+    if X*Y<=Z*1440:
+        print("Yes")
+    else:
+        print("No")
+
+Input:
+
+3
+5 5 5
+50 80 2
+20 72 1
+
+Output:
+
+Yes
+No
+Yes
