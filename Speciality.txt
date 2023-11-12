@@ -1,0 +1,29 @@
+Speciality
+
+CODE:
+
+t = int(input())
+for _ in range(t):
+    x, y, z = map(int, input().split(" ", 3))
+    k = max(x, y, z)
+    if k == x:
+        print("Setter")
+    if k == y:
+        print("Tester")
+    if k == z:
+        print("Editorialist")
+
+Input:
+
+4
+5 3 2
+1 2 4
+2 5 1
+9 4 5
+
+Output:
+
+Setter
+Editorialist
+Tester
+Setter
