@@ -1,0 +1,27 @@
+Chefland Games
+
+CODE:
+
+t=int(input())
+while t>0:
+    a,b,c,d=map(int,input().split())
+    if(a==b==c==d==0):
+        print("In")
+    else:
+        print("Out")
+    t-=1
+
+Input:
+
+4
+1 1 0 0
+0 0 0 0
+0 0 0 1
+1 1 1 1
+
+Output:
+
+Out
+In
+Out
+Out
