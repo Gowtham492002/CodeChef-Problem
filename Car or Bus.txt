@@ -1,0 +1,27 @@
+Car or Bus
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    if(x<y):
+        print("bike")
+    elif(x==y):
+        print("same")
+    else:
+        print("car")
+
+
+Input:
+
+3
+1 5
+4 2
+6 6
+
+Output:
+
+bike
+car
+same
