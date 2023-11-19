@@ -1,0 +1,27 @@
+Water Filling
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    k=[x,y,z].count(0)
+    if k>=2: print('Water filling time')
+    else: print("Not now")
+    
+
+Input:
+
+5
+0 0 0
+1 1 1
+1 1 0
+0 1 0
+0 1 1
+
+Output:
+
+Water filling time
+Not now
+Not now
+Water filling time
+Not now
