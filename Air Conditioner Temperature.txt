@@ -1,0 +1,32 @@
+Air Conditioner Temperature
+
+CODE:
+
+t = int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    min=0
+    if a>c:
+        min=a
+    else:
+        min=c
+                
+    if min<=b:
+        print("YES")
+    else:
+        print("NO")
+
+Input:
+
+4
+30 35 25
+30 35 40
+30 35 35
+30 25 35
+
+Output:
+
+YES
+NO
+YES
+NO
