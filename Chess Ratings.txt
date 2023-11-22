@@ -1,0 +1,22 @@
+Chess Ratings
+
+CODE:
+
+for _ in range(int(input())):
+    x,y = map(int,input().split())
+    print((y-x)//8) if (y-x)%8==0 else print((y-x)//8+1)
+
+Input:
+
+4
+10 10
+10 17
+10 18
+10 19
+
+Output:
+
+0
+1
+1
+2
