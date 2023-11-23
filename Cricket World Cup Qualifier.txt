@@ -1,0 +1,17 @@
+Cricket World Cup Qualifier
+
+CODE:
+
+X = int(input())
+if (X >= 12):
+  print("yes")
+else:
+  print("no")
+
+Input:
+
+3
+
+Output:
+
+no
