@@ -1,0 +1,26 @@
+Hackerman
+
+CODE:
+
+prime=[1,2,3,5,7,11]
+N=int(input())
+for i in range(N):
+    a,b=map(int,input().split())
+    add=a+b
+    if add in prime:
+        print("Alice")
+    else:
+        print('Bob')
+
+Input:
+
+3
+2 1
+1 1
+2 2
+
+Output:
+
+Alice
+Alice
+Bob
