@@ -1,0 +1,23 @@
+Flip the cards
+
+CODE:
+
+card = int(input())
+for c in range(card):
+  left,right= map(int,input().split())
+  print(min(left-right,right))
+
+Input:
+
+4
+5 0
+4 2
+3 3
+10 2
+
+Output:
+
+0
+2
+0
+2
