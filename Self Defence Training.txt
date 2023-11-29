@@ -1,0 +1,24 @@
+Self Defence Training
+
+CODE:
+
+for _ in range(int(input())):
+    n = int(input())
+    x = list(filter(lambda x: 10 <= x <=60, list(map(int, input().split(' ')))))
+    print(len(x))
+
+Input:
+
+3
+3
+15 23 65
+3
+15 62 16
+2
+35 9
+
+Output:
+
+2
+2
+1
