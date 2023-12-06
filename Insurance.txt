@@ -1,0 +1,25 @@
+Insurance
+
+CODE:
+
+for i in range(int(input())):
+    X,Y = map(int,input().split())
+    if X>=Y:
+        print(Y)
+    else:
+        print(X)
+
+Sample Input:
+
+4
+5 3
+5 8
+4 4
+15 12
+
+Your Output:
+
+3
+5
+4
+12
