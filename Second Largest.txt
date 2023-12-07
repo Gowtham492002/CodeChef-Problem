@@ -1,0 +1,21 @@
+Second Largest
+
+CODE:
+
+for i in range(int(input())):
+    A = list(map(int,(input().split())))
+    A.sort()
+    print(A[1])
+
+Sample Input:
+
+3 
+120 11 400
+10213 312 10
+10 3 450
+
+Your Output:
+
+120
+312
+10
