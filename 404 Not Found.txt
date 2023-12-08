@@ -1,0 +1,17 @@
+404 Not Found
+
+CODE:
+
+x=int(input(""))
+if x==404:
+    print("not found")
+else:
+    print("found")
+
+Sample Input:
+
+200
+
+Your Output:
+
+found
