@@ -1,0 +1,25 @@
+Codechef Airlines
+
+CODE:
+
+for i in range(int(input())):
+    X,Y,Z = map(int,input().split())
+    if X*10 >= Y:
+        print(Y*Z)
+    else:
+        print((X*10) * Z)
+
+Sample Input:
+
+4
+2 15 10
+1 10 1
+5 60 100
+1 11 7
+
+Your Output:
+
+150
+10
+5000
+70
