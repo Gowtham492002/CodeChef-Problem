@@ -1,0 +1,25 @@
+Exams
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z = map(int,input().split())
+    if (x*y)/2 < z:
+        print("Yes")
+    else:
+        print("No")
+
+Sample Input:
+
+4
+2 10 12
+2 10 3
+1 5 3
+3 6 9
+
+Your Output:
+
+Yes
+No
+Yes
+No
